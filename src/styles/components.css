@@ -1,0 +1,25 @@
+.fragment-link-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 50px;
+  margin-left: -50px;
+}
+
+.fragment-link-wrapper:hover .fragment-link svg {
+  display: flex;
+}
+
+.fragment-link {
+  position: absolute;
+  left: 20px;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.fragment-link svg {
+  width: 1.25em;
+  display: none;
+}
