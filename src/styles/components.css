@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   position: relative;
-  padding-left: 50px;
-  margin-left: -50px;
+  padding-left: 2em;
+  margin-left: -2em;
 }
 
 .fragment-link-wrapper:hover .fragment-link svg {
@@ -12,9 +12,9 @@
 
 .fragment-link {
   position: absolute;
-  left: 20px;
+  left: 0.875em;
   text-decoration: none;
-  padding: 10px;
+  /* padding: 0.25em 10px; */
   display: flex;
   align-items: center;
 }
@@ -22,4 +22,8 @@
 .fragment-link svg {
   width: 1.25em;
   display: none;
+}
+
+.fragment-link-wrapper p {
+  margin: 0;
 }
